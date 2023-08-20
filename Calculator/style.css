@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Poppins&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.calculator{
+    width: 100%;
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+button{
+    border: none;
+    width: 47px;
+    height: 47px;
+    margin: 3.5px 20px 2px 19.7px;
+    /* margin-left: 35px; */
+
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+    /* border-radius: 1px; */
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    /* font-size: 20px; */
+    cursor: pointer;
+    margin: 10px;
+}
+button.equal{
+    background: aqua;
+}
+.display input::placeholder{
+    color: white;
+}
+button:hover{
+    background: aqua;
+}
+
+button.equal:hover{
+    background: #3a4452;
+}
